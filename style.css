@@ -1,0 +1,298 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+nav {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+nav .container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #2575fc;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+main {
+  margin: 40px auto;
+  display: grid;
+  gap: 30px;
+}
+
+.blog-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.blog-card img {
+  width: 100%;
+  height: auto;
+}
+
+.blog-card h2 {
+  margin: 20px;
+  font-size: 24px;
+  color: #222;
+}
+
+.blog-card p {
+  margin: 0 20px 20px;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 50px;
+  font-size: 14px;
+}
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9fb;
+  color: #2c2c2c;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #4b6cb7, #182848);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-bottom: 5px solid #ffffff33;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Navbar */
+nav {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav .container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: #4b6cb7;
+  border-bottom: 2px solid #4b6cb7;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Blog Card Styles */
+main {
+  margin: 50px auto;
+  display: grid;
+  gap: 35px;
+}
+
+.blog-card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-6px);
+}
+
+.blog-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.blog-card h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+.blog-card p {
+  margin: 0 20px 25px;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #1c1c1c;
+  color: #ccc;
+  text-align: center;
+  padding: 18px 0;
+  margin-top: 60px;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+body {
+  background: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+.blog-card {
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+nav a:hover {
+  color: #ff6347; /* Tomato color */
+  font-weight: 700;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+button {
+  background-color: #2575fc;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0053ba;
+}
+.blog-card img {
+  width: 100%;    /* image container ke width ke hisaab se fit ho jayegi */
+  max-width: 600px; /* max size limit (adjust kar sakte ho) */
+  height: auto;   /* height aspect ratio maintain rahega */
+  display: block; /* extra space avoid karne ke liye */
+  margin: 0 auto; /* center karne ke liye */
+  border-radius: 10px; /* thoda rounded edges (optional) */
+}
+.blog-card img {
+  width: 400px;  /* fixed width */
+  height: 250px; /* fixed height */
+  object-fit: cover; /* image crop ho jayegi proportionate */
+  border-radius: 10px;
+}
+.blog-card {
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  max-width: 700px;
+  margin: auto;
+}
+
+.blog-card:hover {
+  transform: translateY(-6px);
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%; /* 16:9 aspect ratio approx */
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 14px;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  right: 20px;
+  color: white;
+  background: rgba(0,0,0,0.5); /* semi-transparent black background */
+  padding: 15px 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+
+.overlay-text h2 {
+  margin: 0 0 8px;
+  font-size: 1.6rem;
+}
+
+.overlay-text p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.3;
+}
